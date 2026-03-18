@@ -1,0 +1,10 @@
+file_format: "1"
+id: tps65_trackpad
+name: TPS65 Trackpad
+type: shield
+url: https://github.com/franciscomiranda/zmk-tps65-trackpad
+requires:
+  - nice_nano_v2
+features:
+  - keys
+siblings: []
