@@ -5,7 +5,7 @@
     };
 };
 
-&arduino_i2c {
+&i2c0 {
     status = "okay";
 
     tps65: iqs5xx@74 {
