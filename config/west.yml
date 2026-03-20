@@ -1,16 +1,21 @@
 manifest:
-  defaults:
-    revision: v0.3
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: AYM1607
+      url-base: https://github.com/AYM1607
+    - name: TooManyLs
+      url-base: https://github.com/TooManyLs
   projects:
     - name: zmk
       remote: zmkfirmware
+      revision: ac7f75b8591d39aaf3b66b9d26f26c9ed921a009
       import: app/west.yml
     - name: zmk-driver-azoteq-iqs5xx
-      path: modules/zmk-driver-azoteq-iqs5xx
+      remote: TooManyLs
       revision: main
-      url: https://github.com/AYM1607/zmk-driver-azoteq-iqs5xx
+    - name: zmk-dongle-screen
+      remote: TooManyLs
+      revision: upgrade-4.1
   self:
     path: config
