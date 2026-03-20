@@ -56,3 +56,7 @@
         switch-xy;
     };
 };
+
+&tps65_split {
+    status = "okay";
+};
