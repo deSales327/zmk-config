@@ -10,7 +10,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            bindings = < &kp SPACE >;
+            bindings = < none >;
         };
     };
 };
