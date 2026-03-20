@@ -57,6 +57,6 @@
     };
 };
 
-&tps65_split {
+&tps65 {
     status = "okay";
 };
