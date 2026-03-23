@@ -3,7 +3,7 @@ id: tps65_trackpad
 name: TPS65 Trackpad
 type: shield
 url: https://github.com/franciscomiranda/zmk-tps65-trackpad
-requires: [pro_micro]
+requires: nice_nano
 features:
   - keys
   - pointer
